@@ -18,9 +18,9 @@
 $(document).ready(function()
 {
 	"use strict";
-		$('.burger').click(function() {
-			$('.menu').slideDown(300);
-		});
+		//$('.burger').click(function() {
+		//s	$('.menu').slideDown(300);
+		//});
 
 		$('.scrolldown').click(function() {
 			$('html, body').animate({scrollTop: $('.system').offset().top}, 1000);
@@ -32,7 +32,7 @@ $(document).ready(function()
 
 		$('#services2').click(function() {
 			$('html, body').animate({scrollTop: $('#mains-tab').offset().top}, 1000);
-			$('.menu').slideUp(300);
+			//$('.menu').slideUp(300);
 		});
 
 
@@ -42,7 +42,7 @@ $(document).ready(function()
 
 		$('#portfolio2').click(function() {
 			$('html, body').animate({scrollTop: $('.news').offset().top}, 1000);
-			$('.menu').slideUp(300);
+			//$('.menu').slideUp(300);
 		});
 
 		$('#subscribe1').click(function() {
