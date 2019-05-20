@@ -29,7 +29,9 @@ $(document).ready(function()
 
 		$('#services2').click(function() {
 			$('html, body').animate({scrollTop: $('#mains-tab').offset().top}, 1000);
+			$('.menu').fadeOut(100);
 		});
+
 
 		$('#portfolio').click(function() {
 			$('html, body').animate({scrollTop: $('.news').offset().top}, 1000);
@@ -37,6 +39,7 @@ $(document).ready(function()
 
 		$('#portfolio2').click(function() {
 			$('html, body').animate({scrollTop: $('.news').offset().top}, 1000);
+			$('.menu').fadeOut(100);
 		});
 		$('#subscribe1').click(function() {
 			$('html, body').animate({scrollTop: $('#subscribe').offset().top}, 1000);
